@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encurte seus links</title>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+		<nav class="navbar navbar-light bg-light">
+		  <a class="navbar-brand" href="#">
+		    <img id="logo" src="assets/logo.png" class="d-inline-block align-top center" alt="">
+		  </a>
+		</nav>
+
+		<!-- Começo Container-fluid -->
+		<div class="container-fluid">
+			<!-- Parte 1 -->
+			<div id="home" class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div id="encurtar">
+						<h1 id="encurteh1">Encurte seus links.</h1>
+						<h4>Links longos. Encurte os links que você deseja compartilhar, <br>e acompanhe enquanto viajam através da internet.</h4>
+
+						<form method="post" onsubmit="encurtar(); return false;">
+						  <div>
+						    <input id="pesquisa" type="search" id="mySearch" placeholder="Cole seu link aqui">
+						    <button id="botaop">Encurtar</button>
+						  </div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<!-- FIM Parte 1 -->
+
+			<!-- Parte 2 -->
+			<div id="top5" class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<br>
+					<h1 class="padraoletra">top 5</h1>
+					<br>
+				</div>
+
+				<div class="container">
+					<div class="row">
+
+						<table id="tabletam">
+							<tr class="tabela">
+								<td class="link">http://chr.de/xyzxyz</td>
+								<td class="num">7.919</td>
+							</tr>
+							<tr class="tabela">
+								<td class="link">http://chr.de/xyzxyz</td>
+								<td class="num">6.732</td>
+							</tr>
+							<tr class="tabela">
+								<td class="link">http://chr.de/xyzxyz</td>
+								<td class="num">245</td>
+							</tr>
+							<tr class="tabela">
+								<td class="link">http://chr.de/xyzxyz</td>
+								<td class="num">1.757</td>
+							</tr>
+							<tr class="tabela">
+								<td class="link">http://chr.de/xyzxyz</td>
+								<td class="num">75</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- FIM Parte 2 -->
+
+			<!-- Parte 3 -->
+			<div id="flecha" class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="arrow-down center"></div>
+				</div>
+			</div>
+
+			<div id="hits" class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h1 class="padraoletra">Hits</h1>
+				
+				
+				<div class="img-thumbnail">
+					<h2 id="numeropadrao">36.202.523</h2>
+				</div>
+					<p id="cliques">Cliques em links</p>
+				</div>
+			</div>
+			<!-- FIM Parte 3 -->
+		</div>
+		<!-- FIM Container-fluid -->
+
+
+<footer id="rodape">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-6">
+				<h4 id="txtfooter">chr.dc</h4>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-6">
+				<a href="#"><img class="sociais text-right" src="assets/icon-twitter.png"></a>
+				<a href="#"><img class="sociais text-right" src="assets/icon-facebook.png"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

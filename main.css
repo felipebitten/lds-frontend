@@ -1,0 +1,171 @@
+#logo {
+	width: 150px;
+}
+
+.center {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 150px;
+}
+
+#home {
+	background-image: url("assets/home.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 800px;
+	color: white;
+	font-family: Arial;
+}
+
+#encurteh1 {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+#pesquisa {
+	border-bottom: 2px solid #ff6e14;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: transparent;
+	width: 500px;
+	margin-top: 100px;
+}
+
+::placeholder {
+	color: #ff6e14;
+	font-size: 20px;
+}
+
+#botaop {
+	height: 30px;
+	width: 90px;
+	background-color: #ff6e14;
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#encurtar {
+	padding-top: 300px;
+	text-align: center;
+}
+
+#top5 {
+	height: 400px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.padraoletra {
+	color: #AA1423;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+}
+
+table, th, td {
+    border-bottom: 1px solid #eee;
+}
+
+.tabela {
+	font-size: 20px;
+}
+
+.tabela td {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 100%;
+}
+
+#tabletam {
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.link {
+	font-size: 16px;
+	color: #AA1423;
+	font-weight: bold;
+}
+
+.num {
+	color: #777;
+	font-size: 14px;
+	text-align: right;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 60px 60px 0 60px;
+	border-color: #fff transparent transparent transparent;
+	position: absolute;
+}
+
+#flecha {
+	height: 50px;
+	background-color: #f2f2f2;
+}
+
+#hits {
+	height: 250px;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+#numeropadrao {
+	color: #AA1423;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+}
+
+#cliques {
+	font-size: 15px;
+	color: #777;
+	margin-top: 5px;
+}
+
+.img-thumbnail {
+	margin-top: 10px;
+}
+
+#txtfooter {
+	color: #AA1423;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+.sociais {
+		width: 22px;
+		height: 22px;
+		float: right;
+		margin-top: 16px;
+		margin-right: 10px;
+}
+
+#rodape {
+	height: 50px;
+}
