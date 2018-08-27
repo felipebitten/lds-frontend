@@ -1,3 +1,7 @@
+* {
+	font-family: Roboto;
+}
+
 #logo {
 	width: 150px;
 }
@@ -24,7 +28,7 @@
 
 #encurteh1 {
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 44px;
 }
 
 textarea:focus, input:focus, select:focus {
@@ -46,15 +50,17 @@ textarea:focus, input:focus, select:focus {
 ::placeholder {
 	color: #ff6e14;
 	font-size: 20px;
+	font-family: Arial;
 }
 
-#botaop {
+#btn {
 	height: 30px;
 	width: 90px;
 	background-color: #ff6e14;
 	border: none;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-family: Arial;
 }
 
 #encurtar {
@@ -102,14 +108,14 @@ table, th, td {
 }
 
 .link {
-	font-size: 16px;
+	font-size: 18px;
 	color: #AA1423;
 	font-weight: bold;
 }
 
 .num {
 	color: #777;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: right;
 }
 

@@ -15,6 +15,11 @@
 </head>
 <body>
 
+
+
+
+
+
 		<nav class="navbar navbar-light bg-light">
 		  <a class="navbar-brand" href="#">
 		    <img id="logo" src="assets/logo.png" class="d-inline-block align-top center" alt="">
@@ -32,8 +37,8 @@
 
 						<form method="post" onsubmit="encurtar(); return false;">
 						  <div>
-						    <input id="pesquisa" type="search" id="mySearch" placeholder="Cole seu link aqui">
-						    <button id="botaop">Encurtar</button>
+						    <input id="pesquisa" type="search" placeholder="Cole seu link aqui">
+						    <button id="btn">Encurtar</button>
 						  </div>
 						</form>
 
@@ -116,6 +121,25 @@
 		</div>
 	</div>
 </footer>
+
+<!--
+<script type="text/javascript">
+	var botao = document.getElementById("btn");
+
+	botao.addEventListener('click', function(e){
+		e.preventDefault();
+		document.getElementById("pesquisa").value = "TESTETESTETESTE"});
+
+	$.getJSON("urls.json" , function( data ) {
+		var items = [];
+		$.each (data, function(shortUrl) {
+			items.push(+ shortUrl);
+		});
+	});
+</script>
+-->
+
+<script src="script.js"></script>
 
 </body>
 </html>
